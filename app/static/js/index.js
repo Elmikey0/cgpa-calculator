@@ -103,10 +103,8 @@ function goBack() {
 }
 
 function getColorFromCGPA(cgpa) {
-  // Clamp CGPA between 0 and 5
   const grade = Math.max(0, Math.min(5, cgpa));
 
-  // Interpolate from red (255, 0, 0) to green (0, 128, 0)
   const red = Math.round(230 * (1 - grade / 5));
   const green = Math.round(128 * (grade / 5));
   
