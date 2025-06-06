@@ -203,6 +203,6 @@ body {
   box-sizing: border-box;
 }
 
-.input-group {
-  margin-top: 10px;
+*.input-group {
+  margin-bottom: 10px;
 }
